@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form page</title>
+
+</head>
+<body>
+    <form action="">
+        <h1>Payment Form</h1>
+        <h1>contact information</h1>
+      <div>  Name : <input type="text" name="name" value="name" required>
+      </div>
+      Date of Birth : <input type="date" value="date" required>
+        <fieldset>
+
+
+            <legend>
+                Gender
+            </legend>
+                
+                <div>
+                    male:<input type="radio"name="gender" id="male" required> Female: <input type="radio" name="gender" id="female">
+
+
+                </div>
+           
+        
+    </fieldset>
+    <fieldset>
+        <legend>address</legend>
+        Email : <input type="email" name="email" id="email" required>   Mob No. : <input type="number">
+        <p>
+            Pincode: <input type="number" name="number">
+                district:<select name="select" id="district" required>
+                    <option value="">--select district</option> 
+                <option value="azamgarh">azamgarh</option>
+                <option value="lucknow">lucknow</option>
+                <option value="agra">agra</option>
+                <option value="kanpur">kanpur</option>
+
+            </select>  
+            
+        </p>
+    </fieldset>
+    <div>
+        password : <input type="password" required>
+    </div>
+    <p>
+        <input type="button" value="pay now"> <input type="button" value="reset">
+    </p>
+
+
+
+    </form>
+</body>
+</html>
